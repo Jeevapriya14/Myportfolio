@@ -4,13 +4,17 @@ h1{
     border: 10px solid blue;
     padding: 10px;
     font-size: 40px;
+    
 
 }
 body{
     background-color: ivory;
     
     padding:2px;
+    
 }
+
+
 footer{
     p{
         color: red;
