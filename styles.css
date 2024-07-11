@@ -14,13 +14,41 @@ body{
     
 }
 p{
+        padding: 10px;
+        border: 10px;
+        margin-bottom: 10px;
+
+    
+    
+}
+.para{
     padding: 10px;
-    border:10px;
+    border: 10px;
 }
 
 footer{
     p{
         color: red;
     }
-
+    
+    
+    }
+button:hover{
+    background-color: black;
+    color: white;
 }
+button{
+    border-radius: 10px;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    
+} 
+table,td,th{
+   
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
