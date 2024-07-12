@@ -62,5 +62,10 @@ tr:hover{
     background-color: black;
     color: white;
 }
+ol{
+    font-size: 20px;
+    margin-left: 1px;
+
+}
 
 
