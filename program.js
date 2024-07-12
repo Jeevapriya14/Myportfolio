@@ -1,1 +1,3 @@
-document.getElementById("head").innerHTML="These are my projects so far..."
+function myfunc(){
+document.getElementById("head").innerHTML="Sample java code";
+}
