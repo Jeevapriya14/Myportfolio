@@ -22,8 +22,7 @@ p{
     
 }
 .para{
-    padding: 10px;
-    border: 10px;
+    width: 75%;
 }
 
 footer{
@@ -38,6 +37,7 @@ button:hover{
     color: white;
 }
 button{
+    border: 3px solid black;
     border-radius: 10px;
 }
 .table {
@@ -67,5 +67,32 @@ ol{
     margin-left: 1px;
 
 }
+.Me{
+    position: absolute;
+    top: 170px;
+    right: 50px;
+    
+}
 
+.pro{
+    position: absolute;
+    top: 98%;
+    left: 2%;
 
+}
+
+.contact{
+    position: absolute;
+    left: 4%;
+}
+.linkedin{
+    height: 25px;
+    width: 25px;
+}
+.github{
+    height: 35px;
+    width: 35px;
+}
+#head{
+    margin-left: 2%;
+}
