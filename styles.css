@@ -1,92 +1,9 @@
-h1{
-    background-color: lightpink;
-    text-align: center;
-    border: 10px solid blue;
-    padding: 10px;
-    font-size: 40px;
-    
-
-}
 body{
+    padding: 5px;
     background-color: ivory;
-    padding:2px;
+}
+.heading{
+    text-align: center;
+    color: black;
     
-    
-}
-p{
-        padding: 10px;
-        border: 10px;
-        margin-bottom: 10px;
-
-    
-    
-}
-.para{
-    width: 75%;
-}
-
-footer{
-    p{
-        color: red;
-    }
-    
-    
-    }
-button:hover{
-    background-color: black;
-    color: white;
-}
-button{
-    border: 3px solid black;
-    border-radius: 10px;
-}
-.table {
-    width: 100%;
-   text-align: center;
-   padding: 10px;
-   margin-top: 90px;
-   margin-bottom: 90px;
-   background-color: lightgray;
-   
-    
-} 
-
-.Me{
-    position: absolute;
-    top: 150px;
-    right: 50px;
-    
-}
-
-.pro{
-    position: absolute;
-    top: 98%;
-    left: 2%;
-
-}
-
-.contact{
-    position: absolute;
-    left: 4%;
-}
-.linkedin{
-    height: 25px;
-    width: 25px;
-}
-.github{
-    height: 35px;
-    width: 35px;
-}
-#head{
-    margin-left: 2%;
-
-}
-.java{
-    margin-top: 5%;
-    margin-left: 3%;
-
-}
-h1:hover{
-    background-color: red;
-    color: white;
 }
