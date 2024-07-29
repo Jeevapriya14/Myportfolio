@@ -5,17 +5,23 @@ html{
 }
 body{
     padding: 5px;
-    background-color: lightsteelblue;
+    background-image: url(https://33.media.tumblr.com/97cf6e13d4606a3119895e83159c80f8/tumblr_ntt6znpSie1shpedgo1_r1_540.gif);
+    color: white;
+}
+.Home .mypic{
+    border-style: solid;
+    border: color(lightgrey)
 }
 .heading{
     text-align: center;
-    color: black;
+    color: white
     
     
 
 }
 .header{
     background-color: lightgrey;
+
     box-shadow: inset;
   
     padding: 5%;
@@ -35,12 +41,12 @@ body{
 .header .navbar a{
     
     text-decoration: none;
-    margin: 6.5rem;
+    margin: 5rem;
     font-size: 17px;
     color: black;
 }
 .header .navbar a:hover{
-    color: lightcoral;
+    color: green;
 
 }
 .Home img{
@@ -80,12 +86,12 @@ body{
     background-color: lightgreen;
 }
 .Home .my_info .res_btn{
-    width: 15%;
+    width: 20%;
     height: 10%;
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
-    left: 65%;
+    left: 100%;
     padding: 2px;
 
 }
