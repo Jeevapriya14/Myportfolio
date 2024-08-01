@@ -13,11 +13,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.heading {
-    text-align: center;
-    color: white;
-    margin-top: 50px;
-}
+
 
 .header {
     background-color: lightgrey;
@@ -31,8 +27,8 @@ body {
 
 .header .navbar {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-evenly;
+    
 }
 
 .header .navbar a {
