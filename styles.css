@@ -40,6 +40,7 @@ body {
 
 .header .navbar a:hover {
     color: blue;
+    transition: 1s;
 }
 
 .home {
