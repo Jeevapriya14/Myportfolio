@@ -84,7 +84,7 @@ body {
 
 .home .my_info .btn:hover,
 .home .my_info .res_btn:hover {
-    background-color: greenyellow;
+    background-color: lightgreen;
     color: black;
 }
 
