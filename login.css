@@ -60,3 +60,17 @@ input{
     cursor: pointer;
 
 }
+.reset button{
+    background-color: lightgreen;
+    color: red;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 21px;
+    height: 40px;
+    width: 90px;
+}
+.reset button:hover{
+    color: black;
+    cursor: pointer;
+
+}
