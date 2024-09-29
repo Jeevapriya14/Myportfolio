@@ -10,18 +10,18 @@
 <body>
     <div class="border">
         <h1>REGISTER</h1>
-        <form autocomplete="on">
+        <form autocomplete="on" method="get">
             <div class="form">
                 <label for="fname">FIRST NAME: </label>
-                <input type="text" id="fname">
+                <input type="text" id="fname" name="fname" size="15" maxlength="15" required>
             </div>
             <div class="form">
                 <label for="lname">LAST NAME: </label>
-                <input type="text" id="lname">
+                <input type="text" id="lname" name="lname" size="10" maxlength="10"required>
             </div>
             <div class="form">
                 <label for="email">EMAIL: </label>
-                <input type="email" id="email">
+                <input type="email" id="email" name="email" maxlength="20" required>
             </div>
             <div class="form">
                 <div class="gen">
@@ -30,11 +30,13 @@
                 <label for="male">MALE</label>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">FEMALE</label>
+                
+
             </div>
         </div>
         <div class="form">
             <label for="phn">PHONE NUMBER: </label>
-            <input type="number" id="phn">
+            <input type="tel" id="phn" size="10" maxlength="10">
         </div>
         <div class="form">
            COMMENTS:   <textarea rows="5" cols="30">   </textarea>
@@ -49,9 +51,24 @@
             </datalist>
         </div>
         <div class="form">
+            <div class="dob">
+                <label for="dob">DATE OF BIRTH: 
+                <input type="date" id="dob">
+            </label>
+            </div>
+        </div>
+        <div class="form">
+            <div class="check">
+                <label for="check">
+                <input type="checkbox" id="check" name="check" required>
+                I ensure that I have provided all the details correctly.</label>
+            </div>
+        </div>
+        <div class="form">
             <div class="sub">
             
-            <button type="button" onclick="alert('DO YOU WANT TO SUBMIT IT?')">SUBMIT</button>
+            <button type="submit">SUBMIT</button>
+
         </div>
         
         <div class="form">
@@ -60,17 +77,13 @@
             </div>
 
         </div>
-    </div>
-        <div class="form">
-            <div class="check">
-                <label for="check">
-                <input type="checkbox" id="check">
-                I ensure that I have provided all the details correctly.</label>
-            </div>
-        </div>
+    
+        
 
         
         </form>
+        
     </div>
+    
 </body>
 </html>
